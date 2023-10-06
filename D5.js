@@ -79,10 +79,33 @@ console.log(cars)
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
 
+cars.push({
+    brand: 'Mazda',
+    model: 'MX-5',
+    licensePlate: true,
+    color: 'Silver',
+    trims: ['black', 'sport', 's-line'],
+})
+
+console.log(cars)
+
+for (let i = 0 ; i < cars.length ; i++) {
+  cars[i].trims.pop()
+}
+console.log(cars)
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
 const justTrims = []
+
+for (let i = 0; i < cars.length; i++) {
+  let saveTrims = structuredClone(cars[i].trims)
+  justTrims.push(saveTrims)
+  if (saveTrims.length > 1) {
+    saveTrims.pop()
+  }
+}
+console.log(justTrims)
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
@@ -95,6 +118,7 @@ const justTrims = []
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ]
+
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
