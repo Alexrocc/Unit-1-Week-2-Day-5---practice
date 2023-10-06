@@ -112,6 +112,15 @@ console.log(justTrims)
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
 
+for( let i = 0 ; i < cars.length ; i++) {
+  if(cars[i].color.charAt(0) === "b") {
+    console.log("Fizz")
+    //console is incorporating the 2 "Fizz"
+  } else {
+    console.log("Buzz")
+  }
+}
+
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
@@ -119,6 +128,12 @@ const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ]
 
+let index = 0;
+
+while (numericArray[index] !== 32) {
+  console.log(numericArray[index])
+  index++
+}
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
@@ -126,3 +141,33 @@ const numericArray = [
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
+
+const charToNumbersArr = []
+
+let charToNum = null
+
+let j = 0
+
+switch (charToNumbersArr[j]) {
+  case charToNumbersArr[0]:
+    charToNum = 7
+    charToNumbersArr.push(charToNum)
+ 
+    case charToNumbersArr[1]:
+    charToNum = 12
+    charToNumbersArr.push(charToNum)
+ 
+    case charToNumbersArr[2]:
+    charToNum = 19
+    charToNumbersArr.push(charToNum)
+
+  case charToNumbersArr[3]:
+    charToNum = 21
+    charToNumbersArr.push(charToNum)
+
+  case charToNumbersArr[4]:
+    charToNum = 4
+    charToNumbersArr.push(charToNum)
+    break;
+}
+console.log(charToNumbersArr)
