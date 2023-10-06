@@ -15,18 +15,18 @@
   box-sizing: border-box;
   padding: 8px 0px 8px 27px;
 }
+/* nav */
 
-#logo-div + div {
+nav {
   background-color: #364759;
 }
-
-#logo-div + div > ul {
+nav > ul {
   color: #f4fcff;
   margin-left: 15px;
   padding-bottom: 2px;
 }
 
-#logo-div + div > ul > li {
+nav > ul > li {
   display: inline-block;
   font-family: "PT Sans", sans-serif;
   font-size: 0.9em;
@@ -37,7 +37,7 @@
 
 main {
   width: 95.5%;
-  padding: 29px;
+  padding: 29px 29px 0 29px;
   background-color: #e9edee;
 }
 
@@ -129,15 +129,31 @@ main div {
   font-weight: 600;
   padding-right: 15px;
 }
-
 #small-card-section p {
+  display: inline-block;
+}
+
+.body-anchor {
   font-family: "PT Sans", sans-serif;
-  color: #1899af;
+  color: #117283;
   display: inline-block;
   font-weight: 600;
+  text-decoration: none;
 }
 
 /* large images section */
+
+.large-img {
+  margin: 0;
+}
+
+.large-img-text {
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 30px;
+}
 
 .large-img img {
   height: 100%;
@@ -145,13 +161,41 @@ main div {
   object-fit: cover;
 }
 
-#large-img-section h2 {
-  font-family: "PT Sans", sans-serif;
+#large-img-section p {
   display: inline-block;
 }
 
-#large-img-section p {
-  font-family: "PT Sans", sans-serif;
-  color: #1899af;
+#large-img-section h2 {
   display: inline-block;
+  font-size: 1.2em;
+  padding-right: 16px;
+}
+
+/* footer */
+
+footer > div {
+  margin: 0;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+}
+
+#anchor-div {
+  background-color: #364759;
+  box-sizing: border-box;
+  padding: 14px;
+}
+
+footer a {
+  color: white;
+  font-weight: 600;
+}
+
+#anchor-div + div {
+  background-color: #222f3f;
+  padding: 60px 0;
+}
+
+footer img {
+  width: 12%;
+  box-sizing: border-box;
 }
