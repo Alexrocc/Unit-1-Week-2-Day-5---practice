@@ -1,0 +1,157 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+*p {
+  font-family: "PT Sans", sans-serif;
+}
+
+/* header */
+#logo-div {
+  background-color: #222f3f;
+}
+
+#logo-div > img {
+  width: 10%;
+  box-sizing: border-box;
+  padding: 8px 0px 8px 27px;
+}
+
+#logo-div + div {
+  background-color: #364759;
+}
+
+#logo-div + div > ul {
+  color: #f4fcff;
+  margin-left: 15px;
+  padding-bottom: 2px;
+}
+
+#logo-div + div > ul > li {
+  display: inline-block;
+  font-family: "PT Sans", sans-serif;
+  font-size: 0.9em;
+  padding: 7px 10px;
+}
+
+/* main */
+
+main {
+  width: 95.5%;
+  padding: 29px;
+  background-color: #e9edee;
+}
+
+main div {
+  margin-bottom: 30px;
+}
+
+/* top section */
+
+#top-section .orange {
+  background-color: #f56600;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 8px;
+  font-size: 0.94em;
+}
+
+#top-section .orange p {
+  color: white;
+  font-family: "PT Sans", sans-serif;
+}
+
+.bg-img {
+  background-image: url(./../images/bg-image.png);
+  background-size: 93%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 58px 0 47px 0;
+}
+
+.bg-img > h1 {
+  font-family: "PT Sans", sans-serif;
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+  padding-bottom: 21px;
+}
+
+.bg-img > h3 {
+  font-family: "PT Sans", sans-serif;
+  color: white;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+/* small cards section */
+
+#small-card-section {
+  background-color: white;
+  padding-bottom: 20px;
+  margin-bottom: 26px;
+}
+
+#small-card-section > div {
+  margin: 0;
+}
+
+.text-div {
+  padding: 18px 0 18px 20px;
+}
+
+.card-div {
+  text-align: center;
+  margin: 0;
+  padding: 0px 6px;
+}
+
+.small-card {
+  margin: 0px 9px;
+  width: 280px;
+  height: 340px;
+  display: inline-block;
+  border: 0.1px transparent;
+  border-radius: 20px;
+  box-shadow: 8px 5px 6px 0px #e3e7ea;
+}
+
+.small-card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+#small-card-section h2 {
+  font-family: "PT Sans", sans-serif;
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding-right: 15px;
+}
+
+#small-card-section p {
+  font-family: "PT Sans", sans-serif;
+  color: #1899af;
+  display: inline-block;
+  font-weight: 600;
+}
+
+/* large images section */
+
+.large-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#large-img-section h2 {
+  font-family: "PT Sans", sans-serif;
+  display: inline-block;
+}
+
+#large-img-section p {
+  font-family: "PT Sans", sans-serif;
+  color: #1899af;
+  display: inline-block;
+}
