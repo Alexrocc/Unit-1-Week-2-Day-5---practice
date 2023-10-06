@@ -1,8 +1,9 @@
 /* Your styles here */
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&display=swap");
 
 *p {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Arimo", sans-serif;
 }
 
 /* Viewport is set at 1300px */
@@ -30,7 +31,7 @@ nav > ul {
 
 nav > ul > li {
   display: inline-block;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Arimo", sans-serif;
   font-size: 0.9em;
   padding: 7px 10px;
 }
@@ -59,7 +60,7 @@ main div {
 
 #top-section .orange p {
   color: white;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Arimo", sans-serif;
 }
 
 .bg-img {
@@ -71,7 +72,7 @@ main div {
 }
 
 .bg-img > h1 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Arimo", sans-serif;
   color: white;
   font-size: 2em;
   font-weight: 600;
@@ -79,7 +80,7 @@ main div {
 }
 
 .bg-img > h3 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Arimo", sans-serif;
   color: white;
   font-size: 1.1em;
   font-weight: 600;
@@ -125,7 +126,7 @@ main div {
 }
 
 #small-card-section h2 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Arimo", sans-serif;
   display: inline-block;
   font-size: 1.2em;
   font-weight: 600;
@@ -136,7 +137,7 @@ main div {
 }
 
 .body-anchor {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Arimo", sans-serif;
   color: #117283;
   display: inline-block;
   font-weight: 600;
@@ -150,7 +151,7 @@ main div {
 }
 
 .large-img-text {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Arimo", sans-serif;
   text-align: center;
   font-weight: 600;
   margin: 0;
@@ -178,7 +179,7 @@ main div {
 footer > div {
   margin: 0;
   text-align: center;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Arimo", sans-serif;
 }
 
 #anchor-div {
