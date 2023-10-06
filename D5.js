@@ -146,28 +146,30 @@ const charToNumbersArr = []
 
 let charToNum = null
 
-let j = 0
-
-switch (charToNumbersArr[j]) {
+for (let j = 0; j < charactersArray.length; j++) {
+  switch (charToNumbersArr[j]) {
   case charToNumbersArr[0]:
     charToNum = 7
     charToNumbersArr.push(charToNum)
- 
-    case charToNumbersArr[1]:
+    break;
+  case charToNumbersArr[1]:
     charToNum = 12
     charToNumbersArr.push(charToNum)
- 
-    case charToNumbersArr[2]:
+    break;
+  case charToNumbersArr[2]:
     charToNum = 19
     charToNumbersArr.push(charToNum)
-
+    break;
   case charToNumbersArr[3]:
     charToNum = 21
     charToNumbersArr.push(charToNum)
-
+    break;
   case charToNumbersArr[4]:
     charToNum = 4
     charToNumbersArr.push(charToNum)
     break;
+  }
 }
+
+
 console.log(charToNumbersArr)
