@@ -36,6 +36,11 @@ nav > ul > li {
   padding: 7px 10px;
 }
 
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
 /* main */
 
 main {
